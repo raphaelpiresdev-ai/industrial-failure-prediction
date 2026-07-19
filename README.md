@@ -78,7 +78,7 @@ Siga as instruções abaixo para reproduzir o pipeline de análise e modelagem e
 Certifique-se de ter o **Python 3.10 ou superior** e o `pip` instalados.
 
 ### 2. Clonar o Repositório
-```bash
+
 git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
 cd seu-repositorio
 
