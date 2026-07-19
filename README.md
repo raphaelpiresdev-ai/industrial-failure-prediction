@@ -75,22 +75,27 @@ O modelo **LightGBM (200 árvores, Learning Rate = 0.03)** foi formalmente selec
 Siga as instruções abaixo para reproduzir o pipeline de análise e modelagem em sua máquina local:
 
 ### 1. Pré-requisitos
+
 Certifique-se de ter o **Python 3.10 ou superior** e o `pip` instalados.
 
 ### 2. Clonar o Repositório
 
-git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
-cd seu-repositorio
+No terminal, clone o projeto com o comando:
+git clone https://github.com/raphaelpiresdev-ai/industrial-failure-prediction
 
-### 3. Instalar as Dependências
-Instale todas as bibliotecas necessárias para rodar as 7 fases do projeto executando o comando abaixo no terminal:
+### 3. Entrar na pasta do projeto e Instalar as Dependências
 
+cd industrial-failure-prediction
 pip install -r requirements.txt
 
 ### 4. Abrir e Executar o Pipeline
-Inicie o ambiente do Jupyter para visualizar e interagir com o código:
 
-Na pasta `INDUSTRIAL-FAILURE-PREDICTION`, abra o arquivo .ipynb do projeto e execute as células sequencialmente da Fase 1 à Fase 7. Os relatórios analíticos serão impressos em tela e os gráficos de validação serão salvos automaticamente na pasta outputs/.
+Inicie o ambiente do Jupyter ou abra a pasta diretamente no **VS Code** para interagir com o código:
+
+1. Na pasta `notebook`, abra o arquivo `.ipynb` do projeto.
+2. Execute as células sequencialmente da **Fase 1 à Fase 7**.
+
+Os relatórios analíticos serão impressos em tela e os gráficos de validação serão salvos automaticamente na pasta `outputs/`.
 
 ---
 
@@ -108,11 +113,13 @@ Para as próximas iterações deste software, mapeamos as seguintes evoluções 
 
 ## Estrutura de Pastas do Repositório
 
+```text
 INDUSTRIAL-FAILURE-PREDICTION
 ├── data/               # Dataset industrial e anotações do departamento de engenharia
 ├── notebook/           # Notebook (.ipynb) com a execução das 7 fases rigorosas
 ├── outputs/            # figura4.png (Matrizes de Confusão salvas em alta resolução)
 ├── README.md           # Documentação técnica e governança do projeto
 └── requirements.txt    # Dependências globais do ambiente
+```
 
-Status do Projeto: 🟢 Concluído e pronto para homologação em ambiente de produção (Deploy).
+**Status do Projeto:** 🟢 Concluído e pronto para homologação em ambiente de produção (Deploy).
