@@ -111,6 +111,12 @@ Para as próximas iterações deste software, mapeamos as seguintes evoluções 
 
 ---
 
+## Video apresentação
+
+Link do video explicativo do projeto: https://drive.google.com/drive/folders/1QzVsN33sN66PnwwNEtzHiLPrwxnPnJ-n?usp=sharing
+
+---
+
 ## Estrutura de Pastas do Repositório
 
 ```text
